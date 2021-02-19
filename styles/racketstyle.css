@@ -1,0 +1,142 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+div.container {
+    margin: 2% 10%;
+    z-index: 1;
+}
+
+.bg-image2 {
+    position: absolute;
+    top: 8rem;
+    left: 0;
+    width: 100%;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+.sideBar {
+    margin: 0 auto;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden; /* hide overflowed content */
+    padding-top: 60px;
+    text-align: center;
+}
+
+.sideBar a {
+    display: block;
+    margin: 20px auto;
+    text-decoration: none;
+    color: violet;
+}
+
+.sideBar .closeButton {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    margin-left: 50px;
+}
+
+h1#title {
+    float: left;
+}
+
+header  {
+    display: inline-block;
+    width: 100%;
+}
+
+button.menu-button {
+    height: 25px;
+    width: 25px;
+    background-color: transparent;
+    border: none;
+    outline: none; /* remove border */
+    display: inline-block;
+    cursor: pointer;
+}
+
+#buttondiv {    /* button positioning */
+    float: right;
+    margin-top: 27px;
+}   
+
+.hamburger-icon {
+    height: 20px;
+    width: 20px;
+    left: 0;
+}
+
+/* old css start */
+
+table {
+    text-align: center;
+    margin: 10px auto;
+    border: solid black 2px;
+    border-collapse: collapse;
+}
+
+th  {
+    border: solid black 1px;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+th.topcol {
+    border-bottom: solid black 2px;
+}
+
+th.leftcol {
+    border-right: solid black 2px;
+}
+
+th.nocol {
+    border-bottom: solid black 2px;
+    border-right: solid black 2px;
+}
+
+table td  {
+    border: solid black 1px;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+p {
+    font-family: Helvetica;
+}
+
+nav {
+    text-align: center;
+    /*margin: 20px auto;*/
+}
+
+a {
+    text-decoration: none;
+}
+
+.link {
+    font-family: monospace;
+    font-size: 20px;
+    border: solid blue 2px;
+    border-radius: 5px;
+    margin: auto;
+    display: block;
+    padding: 25px 0;
+    width: 100px;
+    background-color: aliceblue;
+}
+
+.link:hover {
+    background-color: coral;
+}
+
+/* old CSS stops */
+
+

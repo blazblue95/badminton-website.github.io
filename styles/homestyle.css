@@ -1,0 +1,113 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+div.container {
+    margin: 2% 10%;
+    z-index: 1;
+}
+
+.bg-image1 {
+    position: absolute;
+    top: 8rem;
+    left: 0;
+    width: 100%;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+div {
+    margin: 1.25rem auto;
+}
+
+div.inline {
+    display: inline-block;
+    width: 100%;
+}
+
+div.inline#pictureparagraph {
+    margin: 2rem auto;
+}
+
+.sideBar {
+    margin: 0 auto;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden; /* hide overflowed content */
+    padding-top: 60px;
+    text-align: center;
+}
+
+.sideBar a {
+    display: block;
+    margin: 20px auto;
+    text-decoration: none;
+    color: violet;
+}
+
+.sideBar .closeButton {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    margin-left: 50px;
+}
+
+h1#title {
+    float: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+header {
+    display: inline-block;
+    width: 100%;
+}
+
+#racketimage {
+    margin-left: 6rem;
+    margin-top: 5rem;
+    height: 250px;
+    width: 250px;
+}
+
+button.menu-button {
+    height: 25px;
+    width: 25px;
+    background-color: transparent;
+    border: none;
+    outline: none; /* remove border */
+    display: inline-block;
+    cursor: pointer;
+}
+
+#buttondiv {    /* button positioning */
+    float: right;
+    margin-top: 27px;
+}   
+
+.hamburger-icon {
+    height: 20px;
+    width: 20px;
+    left: 0;
+}
+
+.paragraph {
+    line-height: 200%;
+}
+
+div#wikipedia {
+    float: right;
+    width: 40%;
+    margin: 3rem 5rem 0 0;
+}
+
+span {
+    text-indent: 40px;
+}
