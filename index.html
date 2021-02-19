@@ -2,13 +2,43 @@
 <html>
     <head>
         <title>This is my badminton website!</title>
+        <link href="./styles/homestyle.css" rel="stylesheet" type="text/css">
+        <script src="./jquery-3.5.1.min.js"></script>
+        <script src="./animation.js"></script>
     </head>
     <body>
-        <h1>Badminton Information</h1>
-        <p>Welcome to my badminton website! Here you will get to know everything about badminton.</p>
-
-        <nav>
-            <a href="./Rackets.html">Rackets</a>
-        </nav>
+        <img class="bg-image1" src="./styles/wp2302340-badminton-court-wallpapers-cropped.jpg">
+        <div class="container">
+            <div class="sideBar" id="sidebar">
+                <a href="javascript:void(0)" class="closeButton">&#10006</a>
+                <a href="#">About</a>
+                <a href="./Rackets.html">Rackets</a>
+                <a href="#">Famous Players</a>
+                <a href="#">Techniques</a>
+                <a href='#'>Tactics</a>
+            </div>
+            <header class="inline">
+                <h1 id="title">Badminton</h1>
+                <div id="buttondiv"><button class="menu-button" alt="menu-button"><img src="./styles/hamburger.png" class="hamburger-icon"></button></div>
+            </header>
+            <div class="inline" id="pictureparagraph">
+                <img id="racketimage" src="./styles/badminton rackets.png"></img>
+                <div class="paragraph" id="wikipedia">
+                    <p><b>Badminton</b> is a racquet sport played using racquets to hit a shuttlecock across a net. Although it may be played with larger teams, the most common forms of the game are "singles" (with one player per side) and "doubles" (with two players per side). <b>Badminton</b> is often played as a casual outdoor activity in a yard or on a beach; formal games are played on a rectangular indoor court. Points are scored by striking the shuttlecock with the racquet and landing it within the opposing side's half of the court.</p>
+                    <span>- </span><a href="https://en.wikipedia.org/wiki/Badminton"><i>Wikipedia</i></a>
+                </div>
+            </div>
+            <div class="text-center">
+                <p>Welcome to my badminton website! Here you will get to know everything about badminton. Click the icon at the top right corner for more information!</p>
+            </div>
+            <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+            <nav>
+                <!-- 
+                <div class="text-center">
+                    <a href="./Rackets.html">Rackets</a>
+                </div>
+                -->
+            </nav>
+        </div>
     </body>
 </html>
